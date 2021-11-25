@@ -71,6 +71,28 @@ exes = (number*Chockolate);
 alert (Money-exes);
   
 } 
+function Num123 () {
+    var a = prompt("Enter a value");
+    var b, sum = 0;
+    var z = a;
+    while(a > 0)
+    {
+      b = a % 10;
+      sum = sum * 10 + b;
+      a = parseInt(a / 10);
+    }
+    alert(sum);
+
+}
+
+function Num789987() {
+
+    let i=0;
+   while (i<3);
+   alert (i);
+}
+
+
 
 function getIncome () {
     let sum,income,profit,month;
@@ -130,4 +152,8 @@ function sourceNum () {
     console.log (numFour);
     console.log (sourceNum*100);
     console.log (Math.round(sourceNum*100));
+}
+
+function Rate () {
+    alert(5 % 2);
 }
