@@ -70,8 +70,15 @@ alert (number*1);
 exes = (number*Chockolate);
 alert (Money-exes);
   
-  
 } 
+
+function getIncome () {
+    let sum,income,profit,month;
+sum=prompt('write sum');
+const Rate = 0.0083;
+alert (sum*Rate);
+}
+
 
 function getString () {
     let textH1 = "Hello!";
@@ -79,7 +86,6 @@ function getString () {
     
     
     = `${textH1} I am string`;
-
 console.log (textAll);
 
 }
@@ -113,4 +119,15 @@ function NumOne() {
 
     let NumOne=Math.floor (5.8);
     console.log (NumOne);
+}
+
+function Num16 () {
+    console.log(0xFF);  //0xff=255, шістнадцятирічні числа які використовуються для представлення кольорів і кодування симовoлів і багато іншого;
+}
+function sourceNum () {
+    let sourceNum=1.05+Number.EPSILON; 
+    let numFour=Math.round (sourceNum*100)/100;
+    console.log (numFour);
+    console.log (sourceNum*100);
+    console.log (Math.round(sourceNum*100));
 }
